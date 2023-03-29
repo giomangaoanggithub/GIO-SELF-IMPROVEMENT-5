@@ -1,0 +1,294 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+
+.material-symbols-rounded {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+#teacher-navbar {
+  background-color: #05386b;
+}
+
+#company-title {
+  font-size: x-large;
+  font-style: "Roboto";
+  font-weight: 700;
+  color: #edf5e1;
+  text-align: center;
+  width: 100%;
+}
+
+#teacher-details {
+  padding-left: 1vh;
+  padding-bottom: 1vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+#profile-pic {
+  max-height: 8vh;
+  min-height: 60px;
+  min-width: 60px;
+  border-radius: 50px;
+  border: 4px solid #edf5e1;
+}
+
+#vl {
+  border-left: 3px solid #edf5e1;
+  height: 8vh;
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+
+#teacher-sub-bar {
+  color: white;
+  font-style: "Roboto";
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  background-color: #379683;
+}
+
+#teacher-sub-bar div:nth-child(odd) {
+  display: block;
+}
+
+#teacher-sub-bar div:nth-child(even) {
+  display: none;
+  padding-top: 10px;
+}
+
+.teacher-sub-bar-tab {
+  width: 33.33%;
+}
+
+.teacher-sub-bar-tab:hover {
+  background-color: #52b981 !important;
+  cursor: pointer;
+}
+
+#profile-name-email {
+  color: #edf5e1;
+  font-weight: 500;
+  vertical-align: middle;
+}
+
+#teacher-rooms {
+  min-height: 100vh;
+  background-color: #edf5e1;
+  text-align: center;
+}
+
+#teacher-create {
+  min-height: 100vh;
+  background-color: #edf5e1;
+  padding-top: 1vh;
+  padding-left: 1vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#teacher-grades {
+  min-height: 100vh;
+  background-color: blue;
+}
+
+.material-icons {
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+
+#list-of-rooms-appli {
+  display: flex;
+  flex-direction: reverse-row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+
+#list-of-rooms-appli div {
+  min-width: 50%;
+}
+
+#list-of-rooms-appli table {
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#list-of-rooms-appli th {
+  position: sticky;
+  top: 0;
+  background-color: #edf5e1;
+  z-index: 1;
+  color: #727968;
+}
+
+#list-of-rooms-appli td {
+  border-bottom: 2px solid #9aa787;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.accept-stud {
+  color: #379683;
+  scale: 1.2;
+}
+
+.decline-stud {
+  color: red;
+  scale: 1.2;
+}
+
+.enter-room {
+  scale: 1.2;
+}
+
+.edit-room {
+  scale: 0.8;
+  color: rgb(75, 74, 74);
+}
+
+.delete-room {
+  scale: 0.8;
+  color: rgb(75, 74, 74);
+}
+
+#room-sorter {
+  font-weight: 500;
+  font-style: "Roboto";
+  padding-top: 5vh;
+  padding-left: 1vh;
+  padding-bottom: 5vh;
+  text-align: left;
+}
+
+#newstud-sorter {
+  font-weight: 500;
+  font-style: "Roboto";
+  padding-left: 1vh;
+  text-align: left;
+}
+
+#room-sorter label {
+  margin-right: 2vh;
+}
+
+#room-sorter input {
+  width: 300px;
+  border: 0;
+}
+
+#newstud-sorter label {
+  margin-right: 2vh;
+}
+
+#newstud-sorter input {
+  width: 300px;
+  border: 0;
+}
+
+#newstud-sorter div {
+  padding-top: 2.5vh;
+  padding-bottom: 2.5vh;
+}
+
+#find-newstud {
+  width: 285px !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.material-icons {
+  cursor: pointer;
+}
+
+#table-rooms {
+  max-height: 350px;
+  min-height: 350px;
+  overflow-y: scroll;
+}
+
+#table-newstud {
+  max-height: 350px;
+  min-height: 350px;
+  overflow-y: scroll;
+  direction: rtl;
+}
+
+.see-room-studs {
+  display: none !important;
+}
+
+#room-title-create-q {
+  font-style: "Roboto";
+  font-weight: 600;
+  font-size: xx-large;
+}
+
+#thead-cq {
+  font-style: "Roboto";
+  font-weight: 500;
+  font-size: larger;
+  text-align: center;
+  color: #727968;
+}
+
+#tbody-cq {
+  font-style: "Roboto";
+  font-weight: 500;
+  font-size: medium;
+  text-align: center;
+}
+
+#teacher-create td {
+  border-bottom: 2px solid #9aa787;
+  padding-left: 2vh;
+  padding-right: 2vh;
+}
+
+#create-q-label {
+  font-style: "Roboto";
+  font-size: large;
+  font-weight: 500;
+}
+
+#create-q-area {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#table-cq {
+  max-height: 350px;
+  min-height: 350px;
+  overflow-y: scroll;
+}
+
+textarea {
+  resize: none;
+}

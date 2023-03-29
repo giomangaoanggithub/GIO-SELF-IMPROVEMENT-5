@@ -1,0 +1,409 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+
+.material-symbols-rounded {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+#student-navbar {
+  background-color: #05386b;
+}
+
+#company-title {
+  font-size: x-large;
+  font-style: "Roboto";
+  font-weight: 700;
+  color: #edf5e1;
+  text-align: center;
+  width: 100%;
+}
+
+#student-details {
+  padding-left: 1vh;
+  padding-bottom: 1vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+#profile-pic {
+  max-height: 8vh;
+  min-height: 60px;
+  min-width: 60px;
+  border-radius: 50px;
+  border: 4px solid #edf5e1;
+}
+
+#vl {
+  border-left: 3px solid #edf5e1;
+  height: 8vh;
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+
+#student-sub-bar {
+  color: white;
+  font-style: "Roboto";
+  font-weight: 700;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  background-color: #379683;
+}
+
+#student-sub-bar div:nth-child(odd) {
+  display: block;
+}
+
+#student-sub-bar div:nth-child(even) {
+  display: none;
+  padding-top: 10px;
+}
+
+.student-sub-bar-tab {
+  width: 33.33%;
+}
+
+.student-sub-bar-tab:hover {
+  background-color: #52b981 !important;
+  cursor: pointer;
+}
+
+#profile-name-email {
+  color: #edf5e1;
+  font-weight: 500;
+  vertical-align: middle;
+}
+
+#student-rooms {
+  min-height: 100vh;
+  background-color: #edf5e1;
+  text-align: center;
+}
+
+.material-icons {
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+
+#list-of-rooms {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 100%;
+}
+
+#list-of-rooms div {
+  min-width: 50%;
+}
+
+#list-of-rooms table {
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#list-of-rooms th {
+  position: sticky;
+  top: 0;
+  background-color: #edf5e1;
+  z-index: 1;
+  color: #727968;
+}
+
+#list-of-rooms td {
+  border-bottom: 2px solid #9aa787;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.accept-stud {
+  color: #379683;
+  scale: 1.2;
+}
+
+.decline-stud {
+  color: red;
+  scale: 1.2;
+}
+
+.enter-room {
+  scale: 1.2;
+}
+
+.edit-room {
+  scale: 0.8;
+  color: rgb(75, 74, 74);
+}
+
+.delete-room {
+  scale: 0.8;
+  color: rgb(75, 74, 74);
+}
+
+#room-sorter {
+  font-weight: 500;
+  font-style: "Roboto";
+  padding-top: 5vh;
+  padding-left: 1vh;
+  padding-bottom: 5vh;
+  text-align: left;
+}
+
+#room-sorter label {
+  margin-right: 2vh;
+}
+
+#room-sorter input {
+  width: 300px;
+  border: 0;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.material-icons {
+  cursor: pointer;
+}
+
+#table-rooms {
+  max-height: 350px;
+  overflow-y: scroll;
+}
+#room-search {
+  max-height: 350px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.see-room-studs {
+  display: none !important;
+}
+
+.search-room-label {
+  font-size: x-large;
+  font-weight: 600;
+  font-style: "Roboto";
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.search-room-label-btn {
+  font-size: larger;
+  font-weight: 600;
+  font-style: "Roboto";
+  color: white;
+  background-color: #379683;
+  border: 0;
+  border-radius: 2px;
+}
+
+#student-write {
+  background-color: #edf5e1;
+  min-height: 100vh;
+}
+
+#student-grades {
+  background-color: #edf5e1;
+  min-height: 100vh;
+}
+
+#list-of-tasks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 100%;
+}
+
+#list-of-tasks div {
+  min-width: 50%;
+}
+
+#list-of-tasks table {
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#list-of-tasks th {
+  position: sticky;
+  top: 0;
+  background-color: #edf5e1;
+  z-index: 1;
+  color: #727968;
+}
+
+#list-of-tasks td {
+  border-bottom: 2px solid #9aa787;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+#table-grades {
+  max-height: 350px;
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#table-grades table {
+  width: 98%;
+}
+
+#table-grades th {
+  text-align: center;
+  color: #727968;
+  position: sticky;
+  top: 0;
+  background-color: #edf5e1;
+  z-index: 1;
+}
+
+#table-grades td {
+  border-bottom: 2px solid #9aa787;
+  text-align: center;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+#account-space {
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#account-modal {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: white;
+  display: none;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #5cdb95;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  margin-top: 700px;
+  max-width: 300px;
+  min-width: 300px;
+  position: absolute;
+  z-index: 3;
+}
+
+#account-modal div {
+  margin-top: 0.5vh;
+  margin-bottom: 1vh;
+  font-size: medium;
+}
+
+#account-modal button {
+  background-color: #379683;
+  color: white;
+  font-weight: 600;
+  font-style: "Roboto";
+  border: 0;
+  border-radius: 2px;
+}
+#account-modal button:hover {
+  background-color: #2d7c6c;
+}
+
+#loading-room-image{
+  height: 30px;
+  display: none;
+}
+
+#answer-space {
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#answer-modal {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: white;
+  display: none;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #5cdb95;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  margin-top: 700px;
+  max-width: 600px;
+  min-width: 300px;
+  position: absolute;
+  z-index: 3;
+}
+
+#answer-modal div {
+  margin-top: 0.5vh;
+  margin-bottom: 1vh;
+  font-size: medium;
+}
+
+#answer-modal button {
+  background-color: #379683;
+  color: white;
+  font-weight: 600;
+  font-style: "Roboto";
+  border: 0;
+  border-radius: 2px;
+}
+
+#answer-modal textarea{
+  width: 100%;
+}
+#answer-modal button:hover {
+  background-color: #2d7c6c;
+}

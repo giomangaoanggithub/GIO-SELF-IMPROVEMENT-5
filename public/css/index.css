@@ -1,0 +1,298 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); */
+
+#navbar {
+  background-color: #05386b;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  min-height: 10vh;
+  font-weight: 400;
+  font-size: xx-large;
+  color: white;
+  justify-content: space-around;
+  position: relative;
+  z-index: 0;
+}
+
+#navbar-left {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding: 3vh;
+}
+
+#navbar-right {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  /* background-color: yellow; */
+  justify-content: center;
+  padding: 3vh;
+}
+
+#navbar-right div {
+  font-weight: 700;
+  font-family: "Roboto";
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#navbar-title {
+  margin-left: 5vh;
+  margin-right: 10vh;
+  font-family: "Roboto";
+  font-weight: 900;
+}
+
+#sign-up-btn {
+  background-color: #5cdb95;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  border-radius: 5px;
+}
+
+#dashboard-content {
+  background-repeat: no-repeat;
+  background-size: fixed;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  z-index: 0;
+}
+
+#dashboard-content img {
+  max-height: 30vh;
+}
+
+.persuade-text {
+  font-family: "Roboto", sans-serif;
+  font-size: xx-large;
+  font-weight: 800;
+  text-align: center;
+  white-space: pre;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+
+#sign-in-space {
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#sign-in-modal {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: x-large;
+  color: white;
+  display: none;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #5cdb95;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  margin-top: 700px;
+  max-width: 300px;
+  min-width: 300px;
+  position: absolute;
+  z-index: 3;
+}
+
+#sign-in-modal input {
+  width: 100%;
+  font-size: medium;
+}
+
+#sign-in-modal div {
+  margin-top: 0.5vh;
+  margin-bottom: 1vh;
+}
+
+.sign-in-label {
+  text-align: left;
+  font-size: large;
+}
+
+#login-cred {
+  margin-top: 10vh;
+  background-color: #3b815b;
+}
+
+#login-cred:hover {
+  cursor: pointer;
+  background-color: #2a573e;
+}
+
+#login-title {
+  font-size: xx-large;
+}
+
+#sign-up-now-btn {
+  font-size: medium;
+  text-decoration: underline;
+  text-align: right;
+}
+
+#sign-up-space {
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#sign-up-modal {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: x-large;
+  color: white;
+  display: none;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #5cdb95;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 20px;
+  margin-top: 900px;
+  max-width: 700px;
+  min-width: 300px;
+  position: absolute;
+  z-index: 3;
+}
+
+#sign-up-role {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+#sign-up-modal input {
+  width: 100%;
+  font-size: medium;
+}
+
+#sign-up-modal div {
+  margin-top: 0.5vh;
+  margin-bottom: 1vh;
+}
+
+.sign-up-label {
+  text-align: left;
+  font-size: large;
+}
+
+#new-cred {
+  margin-top: 10vh;
+  background-color: #3b815b;
+}
+
+#new-cred:hover {
+  cursor: pointer;
+  background-color: #2a573e;
+}
+
+#new-title {
+  font-size: xx-large;
+}
+
+.select-role-icon {
+  scale: 1;
+  background-color: #379683;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px;
+  padding-bottom: 3px;
+  border-radius: 50px;
+  transition: scale 0.3s linear;
+}
+
+.select-role-icon:hover {
+  background-color: #296e61;
+  cursor: pointer;
+  position: relative;
+  scale: 1.5;
+}
+
+#register-cred {
+  margin-top: 10vh;
+  background-color: #3b815b;
+}
+
+#register-cred:hover {
+  cursor: pointer;
+  background-color: #2a573e;
+}
+
+#register-title {
+  font-size: xx-large;
+}
+
+#sign-in-btn:hover {
+  cursor: pointer;
+}
+
+#sign-up-btn {
+  cursor: pointer;
+}
+
+#sign-up-now-btn {
+  cursor: pointer;
+}
+
+#invisible-img {
+  display: none;
+}
+
+#role-output {
+  text-align: left;
+  font-size: large;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
